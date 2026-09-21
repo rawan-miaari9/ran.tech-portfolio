@@ -1,6 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const Projects = () => {
+  const base = import.meta.env.BASE_URL;
   return (
     <section
       id="projects"
@@ -18,7 +19,7 @@ export const Projects = () => {
             <div className="flex flex-col p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="w-full h-48 mb-5 overflow-hidden rounded-lg bg-white/[0.03] border border-white/5">
                 <img
-                  src="../public/images/timebank.png"
+                  src={base + "images/timebank.png"}
                   alt="TimeBank preview"
                   className="w-full h-full object-cover"
                 />
@@ -67,7 +68,7 @@ export const Projects = () => {
               <div className="flex flex-col p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="w-full h-48 mb-5 overflow-hidden rounded-lg bg-white/[0.03] border border-white/5">
                 <img
-                  src="../public/images/cybershield.png"
+                  src={base + "images/cybershield.png"}
                   alt="Home Services preview"
                   className="w-full h-full object-cover"
                 />
@@ -113,7 +114,7 @@ export const Projects = () => {
               {/* Image placeholder - replace src with your image path, e.g. "/projects/athletic-hub.png" or import */}
               <div className="w-full h-48 mb-5 overflow-hidden rounded-lg bg-white/[0.03] border border-white/5">
                 <img
-                  src="../public/images/athletichub.png"
+                  src={base + "images/athletichub.png"}
                   alt="Athletic Hub preview"
                   className="w-full h-full object-cover"
                 />
@@ -163,7 +164,7 @@ export const Projects = () => {
             <div className="flex flex-col p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="w-full h-48 mb-5 overflow-hidden rounded-lg bg-white/[0.03] border border-white/5">
                 <img
-                  src="../public/images/gym.png"
+                  src={base + "images/gym.png"}
                   alt="Home Services preview"
                   className="w-full h-full object-cover"
                 />
@@ -208,7 +209,7 @@ export const Projects = () => {
             <div className="flex flex-col p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="w-full h-48 mb-5 overflow-hidden rounded-lg bg-white/[0.03] border border-white/5">
                 <img
-                  src="../public/images/cineverse.png"
+                  src={base + "images/cineverse.png"}
                   alt="Home Services preview"
                   className="w-full h-full object-cover"
                 />
@@ -252,7 +253,7 @@ export const Projects = () => {
             <div className="flex flex-col glass p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_4px_20px_rgba(59,130,246,0.1)] transition-all">
               <div className="w-full h-48 mb-5 overflow-hidden rounded-lg bg-white/[0.03] border border-white/5">
                 <img
-                  src="../public/images/checkout.png"
+                  src={base + "images/checkout.png"}
                   alt="Checkout Flow preview"
                   className="w-full h-full object-cover"
                 />
